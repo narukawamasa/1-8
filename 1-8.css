@@ -18,5 +18,52 @@
   list-style: none;
 }
 .main-vizual-item:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: #acabab;
+}
+.main {
+  width: 960px;
+  height: 680px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-box {
+  width: 30%;
+  height: 200px;
+}
+.main-box:nth-child(1) {
+  background-color: #ffa500;
+  margin: 0 5% 40px 0;
+}
+.main-box:nth-child(2) {
+  background-color: #ffff00;
+  margin: 0 5% 40px 0;
+}
+.main-box:nth-child(3) {
+  background-color: #ffff00;
+  margin-bottom: 40px;
+}
+.main-box:nth-child(4) {
+  background-color: #ffff00;
+  margin:0 5% 40px 0;
+}
+.main-box:nth-child(5) {
+  background-color: #ffa500;
+  margin: 0 5% 40px 0;
+}
+.main-box:nth-child(6) {
+  background-color: #ffff00;
+  margin-bottom: 40px;
+}
+.main-box:nth-child(7) {
+  background-color: #ffff00;
+  margin-right: 5%;
+}
+.main-box:nth-child(8) {
+  background-color: #ffff00;
+  margin-right: 5%;
+}
+.main-box:nth-child(9) {
+  background-color: #ffa500;
 }
