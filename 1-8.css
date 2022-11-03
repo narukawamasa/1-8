@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main-vizual {
+  width: 960px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+.main-vizual-box {
+ width: 960px;
+}
+.main-vizual-item {
+  padding: 20px;
+}
+.main-vizual-list {
+  list-style: none;
+}
+.main-vizual-item:nth-child(odd) {
+  background-color: #f7f7f7;
+}
